@@ -11,8 +11,8 @@ namespace Modarspetrinom.Items //название вашего мода
     
     public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Dragon Picaxe"); //название объекта в игре
-            Tooltip.SetDefault("Omg that picaxe"); //описание объекта в игре
+            DisplayName.SetDefault("Dragon Pickaxe"); //название объекта в игре
+            Tooltip.SetDefault("Omg that pickaxe"); //описание объекта в игре
         }
 
         public override void SetDefaults() //свойства объекта
@@ -36,9 +36,23 @@ namespace Modarspetrinom.Items //название вашего мода
         public override void AddRecipes()  //Крафт
         {
             ModRecipe recipe = new ModRecipe(mod); //запуск рецепта
-            recipe.AddIngredient(ItemID.LunarBar, 5);   //материал из которого будет крафтиться и количество
-            recipe.AddIngredient(mod, "lever" );
-            recipe.AddTile(TileID.WorkBenches);   //на чём будет крафтиться
+            recipe.AddIngredient(ItemID.LunarBar, 880 );   //материал из которого будет крафтиться и количество
+            recipe.AddIngredient(mod, "lever", 120 );
+            recipe.AddIngredient(ItemID.PickaxeStatue );
+            recipe.AddIngredient(ItemID.CactusPickaxe );
+            recipe.AddIngredient(ItemID.BonePickaxe );
+            recipe.AddIngredient(ItemID.NightmarePickaxe );
+            recipe.AddIngredient(ItemID.MoltenPickaxe );
+            recipe.AddIngredient(ItemID.CobaltPickaxe );
+            recipe.AddIngredient(ItemID.MythrilPickaxe );
+            recipe.AddIngredient(ItemID.AdamantitePickaxe );
+            recipe.AddIngredient(ItemID.PickaxeAxe );
+            recipe.AddIngredient(ItemID.ChlorophytePickaxe );
+            recipe.AddIngredient(ItemID.Picksaw );
+
+            
+
+            recipe.AddTile(TileID.DemonAltar);   //на чём будет крафтиться
             recipe.SetResult(this); //что мы получим в итоге 
             recipe.AddRecipe(); //завершение крафта
         }

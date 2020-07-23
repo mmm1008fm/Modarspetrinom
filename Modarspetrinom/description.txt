@@ -1,6 +1,8 @@
-MDFTRG is a pretty cool mod, it add recipe of a pickaxe and more.
-Like Dragon Picaxe.Dragon Picaxe is a cheat picaxe craft from new material "lever" and 5 LunarBar!
-Change log
+MDFTRG is a pretty cool mod, it add recipe of a pickaxes, iteresting staff and more.
+It usually update, so chech it!
+Thanks for 110 dowloads!
+
+V0.25 Item rework
 V0.24 Added a preview
 V0.22 New mage pick
 V0.20 Adding mod

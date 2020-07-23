@@ -24,7 +24,7 @@ namespace Modarspetrinom.Items //название мода "NameMods"
         public override void AddRecipes() //свойства крафта
         {
             ModRecipe recipe = new ModRecipe(mod); //новый рецепт
-            recipe.AddIngredient(ItemID.Wood, 1); //ингридиенты из которых крафтится объект "DirtBlock" - земля "10" - количество
+            recipe.AddIngredient(ItemID.Wood, 200); //ингридиенты из которых крафтится объект "DirtBlock" - земля "10" - количество
             recipe.AddTile(TileID.WorkBenches); //место для крафта "WorkBenches" - верстак
             recipe.SetResult(this, 3); //что получим после крафта "this" - этот объект "1" - количество штук
             recipe.AddRecipe();

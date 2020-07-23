@@ -21,8 +21,8 @@ namespace Modarspetrinom.Items //название вашего мода
             item.magic = true;   //тип оружия "melee" - ближнего боя в руках
             item.width = 64; //ширина спрайта в пикселях (это значение для HitBox`a - невидимая граница для столкновений)
             item.height = 64; //высота спрайта в пикселях (это значение для HitBox`a - невидимая граница для столкновений)
-            item.useTime = 7; //???
-            item.useAnimation = 6; //???
+            item.useTime = 9; //???
+            item.useAnimation = 11; //???
             item.pick = 60;    //сила кирки
             item.axe = 15;
             item.mana = 3; 
@@ -41,7 +41,7 @@ namespace Modarspetrinom.Items //название вашего мода
             recipe.AddIngredient(mod, "lever", 9 );
             recipe.AddIngredient(ItemID.FallenStar, 30);
             recipe.AddIngredient(ItemID.Emerald, 4);
-            recipe.AddTile(TileID.WorkBenches);   //на чём будет крафтиться
+            recipe.AddTile(TileID.DemonAltar);   //на чём будет крафтиться
             recipe.SetResult(this); //что мы получим в итоге 
             recipe.AddRecipe(); //завершение крафта
         }
